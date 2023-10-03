@@ -40,7 +40,7 @@ png = { version = "0.17" }
 tiny_http = "0.12"
 
 [build-dependencies]
-auto_generate_cdp = "0.4.1"
+auto_generate_cdp = { git = "https://github.com/mdrokz/auto_generate_cdp.git", rev = "7cfeef2f97d70c54ffa485a251cf3e7bd8b2112b", features = ["offline"] }
 
 [lib]
 name = "headless_chrome"
